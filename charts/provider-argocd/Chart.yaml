@@ -1,5 +1,5 @@
 apiVersion: v2
-name: kerberus-operator-argocd
+name: provider-argocd
 description: A Helm chart for Kerberus Runtime ArgoCD Provider
 
 # A chart can be either an 'application' or a 'library' chart.
