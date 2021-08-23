@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  provider-argocd:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2021-08-23T15:57:31.421086489Z"
+    description: A Helm chart for Kerberus Runtime ArgoCD Provider
+    digest: 272d4170edf7bd9bddd947f12068c23e6b232c70e3f00f5cb1b572e6587cb6c7
+    name: provider-argocd
+    type: application
+    urls:
+    - https://github.com/projectkerberus/provider-argocd-helm/releases/download/provider-argocd-0.1.0/provider-argocd-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-08-23T15:57:31.421094489Z"
