@@ -20,8 +20,10 @@ Add this repository to Helm:
 $ helm repo add provider-argocd https://projectkerberus.io/provider-argocd-helm
 ```
 
+Install the provider:
+
 ```sh
-helm upgrade --install --namespace argo-system --create-namespace \
+$ helm upgrade --install --namespace argo-system --create-namespace \
     provider-argocd provider-argocd/provider-argocd
 ```
 
