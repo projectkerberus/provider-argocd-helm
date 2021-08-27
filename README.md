@@ -14,6 +14,7 @@ $ kubectl create secret docker-registry cr-token \
 
 ## Installation
 
+
 Add this repository to Helm:
 
 ```sh
