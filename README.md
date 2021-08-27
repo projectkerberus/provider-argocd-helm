@@ -4,7 +4,7 @@ This folder contains Helm charts that can easily create a Kubernetes deployment 
 
 ## Prerequisite
 
-Since the Crossplane Provider ArgoCD container image, is in a private repository, it's mandatory to create a [personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) and store as docker registry secret.
+Since this Crossplane Provider container image, is in a private repository, it's mandatory to create a [personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) and store as docker registry secret.
 
 ```sh
 $ kubectl create secret docker-registry cr-token \
@@ -13,7 +13,6 @@ $ kubectl create secret docker-registry cr-token \
 ```
 
 ## Installation
-
 
 Add this repository to Helm:
 
