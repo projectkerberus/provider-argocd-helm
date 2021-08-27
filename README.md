@@ -18,12 +18,12 @@ Add this repository to Helm:
 
 ```sh
 $ helm repo add provider-argocd https://projectkerberus.io/provider-argocd-helm
+$ helm repo update
 ```
 
 Install the provider:
 
 ```sh
-$ helm upgrade --install --namespace argo-system --create-namespace \
-    provider-argocd provider-argocd/provider-argocd
+$ helm install provider-argocd --namespace argo-system provider-argocd/provider-argocd
 ```
 
