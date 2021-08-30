@@ -15,6 +15,7 @@ rules:
   - events
   - configmaps
   - secrets
+  - leases
   verbs:
   - create
   - delete
@@ -26,29 +27,12 @@ rules:
 - apiGroups:
   - argocd.projectkerberus.io
   resources:
-  - secrets
   - tokens
   - tokens/status
   - providerconfigs
   - providerconfigs/status
   - providerconfigusages
-  verbs:
-  - create
-  - delete
-  - get
-  - list
-  - patch
-  - update
-  - watch
-- apiGroups:
-  - tokens.argocd.projectkerberus.io
-  resources:
-  - secrets
-  - tokens
-  - tokens/status
-  - providerconfigs
-  - providerconfigs/status
-  - providerconfigusages
+  - providerconfigusages/status
   verbs:
   - create
   - delete
